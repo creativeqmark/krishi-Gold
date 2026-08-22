@@ -47,3 +47,13 @@ Thumbs.db
 # Replit
 .cache/
 .local/
+
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+
+# Temporary agent and build artifacts
+.conversation/
+.agents/
+*.log
